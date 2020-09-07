@@ -1,0 +1,16 @@
+<div> <label for="">Basic Salary</label>
+    <input (input) = takeSalary($event) type="text" placeholder="enter  salary">
+</div>
+
+<fieldset>
+    <legend>Output</legend>
+    <p>Basic Salary is {{basicSal}}</p>
+    <p>HRA is {{salaryService.hra()}}</p>
+    <p>TA is {{salaryService.ta()}}</p>
+    <p>DA is {{salaryService.da()}} </p>
+    <p>PF is {{salaryService.pf()}}</p>
+    <p>GS is {{salaryService.gs()}}</p>
+    <p>NS is {{salaryService.ns()}}</p>
+        
+
+</fieldset>
